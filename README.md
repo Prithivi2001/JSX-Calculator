@@ -1,2 +1,2 @@
 # JSX-Calculator
-Calculator used to make calculations made using JSX
+Calculator used to make calculations made JSX
