@@ -1,0 +1,154 @@
+:root {
+  --main: #b97455;
+  --second_main: #69bdd2;
+  --altoption1: #5f68d2;
+  --altoption2: #3ed273;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", "sans-serif";
+}
+
+.class_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.welcomeSection {
+  background-color: #fff;
+  margin: auto;
+  overflow: hidden;
+  max-width: 200px;
+}
+
+.pageHeader h1 {
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  font-family: Helvetica;
+}
+
+.history_section {
+  text-align: right;
+}
+
+.history_section h2 {
+  margin: 20px;
+}
+
+.history_items span {
+  background-color: #fff;
+}
+
+.history h1 {
+  width: 90%;
+  text-align: right;
+}
+
+.hist_list {
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 0;
+  width: 20%;
+}
+
+.welcome_label {
+  margin: 100px;
+}
+
+.usernamesubmit {
+  background-color: #000;
+  font-size: 15px;
+}
+
+body {
+  background-color: #adefd1ff;
+}
+
+.Calculator {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 450px;
+  background-color: #808080;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 2px 70px rgba(0, 0, 0, 0.5);
+}
+
+.interface {
+  padding: 20px;
+  text-align: right;
+  background-color: #000;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.interface span {
+  font-size: 13px;
+  color: #808080;
+}
+
+.clear {
+  appearance: none;
+  outline: none;
+  border: none;
+  color: #000;
+  font-size: 15px;
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.clear:hover {
+  opacity: 0.7;
+}
+
+button {
+  appearance: none;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  opacity: 0.1;
+}
+
+.arithops {
+  display: flex;
+}
+
+.arithops button {
+  flex: 1 1 0%;
+  background-color: var(--main);
+  font-weight: 650;
+}
+
+.nums {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nums button {
+  flex: 1 1 33.3%;
+  max-width: 33.3%;
+  background-color: #000;
+}
